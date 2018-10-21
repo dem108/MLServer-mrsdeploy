@@ -90,6 +90,10 @@ cat(swagger, file = "swagger-demo01.json", append = FALSE)
 # Now you can share Swagger-based JSON so others can consume it
 # Check out http://editor.swagger.io/ - Try `Generate Client` 
 
+# Also try Postman to call HTTP POST directly.
+# http://localhost:12800/login
+# http://localhost:12800/api/mtService1540163015 with Authorization:Bearer {key} in Header, {hp: 120,  wt: 2.8} in body
+
 
 ##########################################################
 #          Delete service version when finished          #
