@@ -1,0 +1,1 @@
+model <- glm(formula = am ~ hp + wt, data = mtcars, family = binomial)
